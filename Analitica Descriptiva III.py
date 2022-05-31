@@ -12,7 +12,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-#Usamos la funcion de pandas llamada "read_csv" para tener el dataset a trabajar en nuestro ambiente de trabajo.
+#Usamos la funcion de pandas llamada "read_csv" para tener el dataset importado en nuestro ambiente de trabajo.
 
 store_data = pd.read_csv("C:/Users/TECH-G/Desktop/Stores.csv" , index_col = 0)
 
